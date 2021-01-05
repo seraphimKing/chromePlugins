@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>search</title>
+    <style>
+      .wrapper {
+        width: 350px;
+        text-align: center;
+      }
+      .input-box {
+        padding-left: 5px;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+      }
+
+      .search-btn {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        vertical-align: middle;
+        font-size: 14px;
+        outline: none;
+      }
+
+      .output {
+        margin: 10px auto;
+        padding: 8px;
+        width: 245px;
+        height: 200px;
+        overflow: scroll;
+        box-shadow: 0 0 3px #ccc;
+        text-align: left;
+      }
+      
+      .link {
+        padding: 3px 0;
+        display: block;
+        cursor: pointer;
+      }
+
+      .link:hover {
+        color: #0072c6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input id="inputDom" class="input-box" />
+      <div id="searchDom" class="search-btn">搜索</div>
+      <div id="outputDom" class="output"></div>
+    </div>
+  </body>
+  <script src="./search.js"></script>
+</html>

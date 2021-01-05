@@ -1,0 +1,17 @@
+{
+  "name": "File Manager",
+  "version": "1.0",
+  "description": "Search The Bookmark You Want !",
+  "browser_action": {
+    "default_popup": "search.html",
+    "default_icon": {
+      "16": "1.png"
+    },
+    "default_title": "Search Bookmark"
+  },
+  "icons": {
+    "16": "1.png"
+  },
+  "permissions": ["bookmarks", "activeTab"],
+  "manifest_version": 2
+}
